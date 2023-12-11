@@ -1,0 +1,82 @@
+2023-08-09 15:39:07.580 [info] 
+
+
+
+
+2023-08-09 15:39:07.607 [info] Extension host agent started.
+2023-08-09 15:39:07.856 [info] [127.0.0.1][36c6d4fa][ManagementConnection] New connection established.
+2023-08-09 15:39:08.361 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] New connection established.
+2023-08-09 15:39:09.479 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] <298> Launched Extension Host Process.
+2023-08-09 17:41:09.639 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-10 12:16:53.146 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-10 12:16:53.337 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-11 21:24:01.853 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-13 21:43:34.884 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-13 21:43:35.085 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-13 21:58:57.762 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-13 21:58:57.904 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-14 07:30:31.872 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-14 07:30:32.093 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-15 15:59:10.804 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-15 15:59:11.309 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-16 10:23:41.741 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-16 10:23:41.943 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-16 10:23:51.523 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-16 10:23:51.624 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-17 11:49:12.708 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-17 11:49:13.055 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-17 12:10:09.971 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-17 12:10:10.205 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-17 12:20:10.759 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-17 12:20:10.981 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-17 16:28:52.818 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-18 12:25:47.875 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-18 12:25:48.027 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-18 12:35:13.181 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-18 12:35:13.376 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-18 12:38:40.972 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-18 12:38:41.669 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-18 13:19:56.485 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-18 13:19:56.735 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-18 13:25:26.975 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-18 13:25:27.229 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-18 13:42:47.460 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-19 17:27:37.277 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-19 17:27:37.454 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-19 18:39:25.410 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-19 18:39:25.605 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-19 19:03:35.130 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-19 19:03:35.350 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-19 19:04:11.449 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-21 09:14:47.115 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-21 09:14:47.285 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-21 10:15:12.121 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-21 10:15:12.416 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-21 12:42:36.329 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-21 12:42:36.554 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-21 12:53:31.021 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-21 12:53:31.317 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-21 12:59:02.185 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-21 12:59:02.353 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-21 13:02:08.691 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-21 13:02:08.841 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-21 13:12:47.911 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-21 13:12:48.182 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-21 13:22:48.987 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-21 13:22:49.280 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-21 13:42:42.894 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-21 13:42:43.084 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-21 17:55:48.341 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-22 08:31:30.015 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-22 08:31:30.097 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-23 22:44:50.547 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-24 11:49:05.702 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-24 11:49:05.888 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-24 12:04:56.896 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-24 12:04:57.300 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-24 14:28:44.385 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-24 14:28:44.738 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-24 17:18:46.200 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.
+2023-08-24 17:18:46.459 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-29 06:56:46.637 [info] [127.0.0.1][c3e6c5d9][ExtensionHostConnection] The client has reconnected.
+2023-08-29 06:56:46.768 [info] [127.0.0.1][36c6d4fa][ManagementConnection] The client has reconnected.

@@ -1,0 +1,123 @@
+2023-10-12 13:29:33.817 [info] 
+
+
+
+
+2023-10-12 13:29:33.847 [info] Extension host agent started.
+2023-10-12 13:29:34.057 [info] [127.0.0.1][7f736ad7][ManagementConnection] New connection established.
+2023-10-12 13:29:34.384 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] New connection established.
+2023-10-12 13:29:35.510 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] <296> Launched Extension Host Process.
+2023-10-12 13:29:39.632 [info] Getting Manifest... dart-code.dart-code
+2023-10-12 13:29:39.632 [info] Getting Manifest... dart-code.flutter
+2023-10-12 13:29:39.632 [info] Getting Manifest... hashicorp.terraform
+2023-10-12 13:29:39.633 [info] Getting Manifest... ms-vscode.azure-account
+2023-10-12 13:29:39.826 [info] Installing extension: dart-code.dart-code
+2023-10-12 13:29:39.967 [info] Installing extension: ms-vscode.azure-account
+2023-10-12 13:29:39.989 [info] Installing extension: hashicorp.terraform
+2023-10-12 13:29:39.996 [info] Installing extension: dart-code.flutter
+2023-10-12 13:29:40.843 [info] Getting Manifest... dart-code.dart-code
+2023-10-12 13:29:41.388 [info] Waiting for already requested installing extension dart-code.dart-code dart-code.flutter
+2023-10-12 13:29:41.548 [warning] Extension signature verification failed with error 'ENOENT': ms-vscode.azure-account
+2023-10-12 13:29:41.576 [warning] Extension signature verification failed with error 'ENOENT': dart-code.dart-code
+2023-10-12 13:29:41.666 [warning] Extension signature verification failed with error 'ENOENT': hashicorp.terraform
+2023-10-12 13:29:41.853 [warning] Extension signature verification failed with error 'ENOENT': dart-code.flutter
+2023-10-12 13:29:41.920 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/dart-code.flutter-3.74.0: dart-code.flutter
+2023-10-12 13:29:41.934 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/dart-code.flutter-3.74.0
+2023-10-12 13:29:41.942 [info] Extracting extension completed. dart-code.flutter
+2023-10-12 13:29:41.969 [info] Marked extension as uninstalled dart-code.flutter-3.72.0
+2023-10-12 13:29:42.011 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/ms-vscode.azure-account-0.11.6: ms-vscode.azure-account
+2023-10-12 13:29:42.022 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/ms-vscode.azure-account-0.11.6
+2023-10-12 13:29:42.031 [info] Extracting extension completed. ms-vscode.azure-account
+2023-10-12 13:29:42.043 [info] Extension installed successfully: ms-vscode.azure-account
+2023-10-12 13:29:42.053 [info] Marked extension as uninstalled ms-vscode.azure-account-0.11.5
+2023-10-12 13:29:42.960 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.28.1-linux-x64: hashicorp.terraform
+2023-10-12 13:29:42.968 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.28.1-linux-x64
+2023-10-12 13:29:42.972 [info] Extracting extension completed. hashicorp.terraform
+2023-10-12 13:29:42.983 [info] Extension installed successfully: hashicorp.terraform
+2023-10-12 13:29:42.989 [info] Marked extension as uninstalled hashicorp.terraform-2.27.2-linux-x64
+2023-10-12 13:30:07.010 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/dart-code.dart-code-3.74.0: dart-code.dart-code
+2023-10-12 13:30:07.026 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/dart-code.dart-code-3.74.0
+2023-10-12 13:30:07.030 [info] Extracting extension completed. dart-code.dart-code
+2023-10-12 13:30:07.040 [info] Extension installed successfully: dart-code.dart-code
+2023-10-12 13:30:07.044 [info] Finished waiting for already requested installing extension dart-code.dart-code dart-code.flutter
+2023-10-12 13:30:07.044 [info] Extension installed successfully: dart-code.flutter
+2023-10-12 13:30:07.052 [info] Marked extension as uninstalled dart-code.dart-code-3.72.2
+2023-10-12 14:31:01.554 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-12 14:31:01.821 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-12 15:57:10.274 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-12 15:57:10.680 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-12 15:57:34.092 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-12 15:57:34.250 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-12 15:57:49.440 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-12 15:57:54.185 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-13 10:25:27.036 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-13 10:25:27.311 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-13 10:25:29.574 [info] Getting Manifest... hashicorp.terraform
+2023-10-13 10:25:29.701 [info] Installing extension: hashicorp.terraform
+2023-10-13 10:25:31.030 [warning] Extension signature verification failed with error 'ENOENT': hashicorp.terraform
+2023-10-13 10:25:31.439 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.28.2-linux-x64: hashicorp.terraform
+2023-10-13 10:25:31.445 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.28.2-linux-x64
+2023-10-13 10:25:31.446 [info] Extracting extension completed. hashicorp.terraform
+2023-10-13 10:25:31.452 [info] Extension installed successfully: hashicorp.terraform
+2023-10-13 10:25:31.455 [info] Marked extension as uninstalled hashicorp.terraform-2.28.1-linux-x64
+2023-10-13 22:53:25.981 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-13 22:53:26.085 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-13 22:53:43.972 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-13 22:53:44.190 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-13 22:53:59.027 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-13 22:53:59.151 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-14 22:19:26.412 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-14 22:19:31.237 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-15 02:25:41.890 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-15 02:25:42.063 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-15 02:26:08.075 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-15 02:26:08.236 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-15 22:19:22.661 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-15 22:19:24.301 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:33:25.701 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:33:25.867 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:33:40.779 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:33:40.976 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:34:41.196 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:34:41.302 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:34:53.183 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:34:53.316 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:35:05.060 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:35:05.155 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:35:18.652 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:35:18.775 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:35:29.045 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:35:29.127 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:35:42.738 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:35:42.840 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:35:53.815 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:35:53.906 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:36:05.589 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:36:05.691 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:36:17.731 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:36:17.854 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:36:29.708 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:36:29.813 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:36:42.507 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:36:42.641 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:36:54.787 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:36:54.907 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:37:06.719 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:37:06.818 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:37:19.553 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:37:19.680 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:37:39.828 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:37:39.929 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:37:51.126 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:37:51.789 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:38:03.602 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:38:03.704 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:39:13.515 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:39:13.623 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:39:26.666 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:39:26.783 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:40:27.232 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 02:40:27.364 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:40:39.107 [info] [127.0.0.1][7f736ad7][ManagementConnection] The client has reconnected.
+2023-10-16 02:40:39.205 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] The client has reconnected.
+2023-10-16 05:41:05.922 [info] [127.0.0.1][d9a57b17][ExtensionHostConnection] <296> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,22 @@
+name: CI
+
+on: push
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Using Node 14.3.0
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.3.0
+      - run: npm install
+      - name: Run Tests
+        uses: GabrielBB/xvfb-action@v1.2
+        with:
+          run: ./cmds/ci.sh

@@ -1,0 +1,13 @@
+2023-12-07 09:28:06.963 [info] 
+
+
+
+
+2023-12-07 09:28:06.995 [info] Extension host agent started.
+2023-12-07 09:28:07.132 [info] [127.0.0.1][8f4d2ddf][ManagementConnection] New connection established.
+2023-12-07 09:28:07.225 [info] Deleted uninstalled extension from disk circlecodesolution.ccs-flutter-color /home/aanjoorin/.vscode-server/extensions/circlecodesolution.ccs-flutter-color-1.2.0
+2023-12-07 09:28:07.226 [info] Deleted uninstalled extension from disk dart-code.dart-code /home/aanjoorin/.vscode-server/extensions/dart-code.dart-code-3.74.0
+2023-12-07 09:28:07.227 [info] Deleted uninstalled extension from disk dart-code.flutter /home/aanjoorin/.vscode-server/extensions/dart-code.flutter-3.74.0
+2023-12-07 09:28:07.227 [info] Deleted uninstalled extension from disk hashicorp.terraform /home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.28.2-linux-x64
+2023-12-07 09:28:08.325 [info] [127.0.0.1][8e06bbcc][ExtensionHostConnection] New connection established.
+2023-12-07 09:28:08.419 [info] [127.0.0.1][8e06bbcc][ExtensionHostConnection] <1140> Launched Extension Host Process.

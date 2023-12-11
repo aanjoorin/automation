@@ -1,0 +1,111 @@
+{
+	"name": "dart-import",
+	"displayName": "dart-import",
+	"description": "Fix Dart/Flutter's imports",
+	"version": "0.3.1",
+	"publisher": "luanpotter",
+	"repository": "https://github.com/luanpotter/vscode-dart-import",
+	"engines": {
+		"vscode": "^1.45.1"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:dart-import.fix",
+		"onCommand:dart-import.fix-all"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"languages": [
+			{
+				"id": "dart",
+				"extensions": [
+					".dart"
+				],
+				"aliases": [
+					"Dart",
+					"dart"
+				]
+			}
+		],
+		"configuration": {
+			"title": "Dart Import configuration",
+			"properties": {
+				"dartImport.showErrorMessages": {
+					"type": "boolean",
+					"description": "Whether you want to see errors after dart-import task failure",
+					"default": true
+				},
+				"dartImport.showInfoMessages": {
+					"type": "boolean",
+					"description": "Whether you want to see notification after dart-import task completion",
+					"default": true
+				},
+				"dartImport.excludeGeneratedFiles": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					},
+					"description": "A list of generated file extensions to exclude",
+					"default": [
+						"g.dart",
+						"config.dart",
+						"freezed.dart"
+					]
+				},
+				"dartImport.fixOnSave": {
+					"type": "boolean",
+					"description": "Auto fix dart imports on file save",
+					"default": false
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "dart-import.fix",
+				"title": "Fix Imports"
+			},
+			{
+				"command": "dart-import.fix-all",
+				"title": "Fix All Imports"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"package": "vsce package",
+		"publish": "vsce publish",
+		"lint": "eslint . --ext .ts,.tsx",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^14.0.6",
+		"@types/vscode": "^1.45.1",
+		"@typescript-eslint/eslint-plugin": "^3.0.2",
+		"@typescript-eslint/parser": "^3.0.2",
+		"eslint": "^7.1.0",
+		"glob": "^7.1.6",
+		"mocha": "^7.2.0",
+		"tsc": "^1.20150623.0",
+		"typescript": "^3.9.3",
+		"vsce": "^1.81.1",
+		"vscode-test": "^1.4.0"
+	},
+	"__metadata": {
+		"id": "81fc200f-fa28-4491-8d20-cda841da5566",
+		"publisherId": "24006cab-e015-4a48-a1c6-d6cb8378350c",
+		"publisherDisplayName": "Luan",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1679728020979
+	}
+}

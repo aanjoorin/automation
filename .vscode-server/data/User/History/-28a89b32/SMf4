@@ -1,0 +1,40 @@
+environment {
+  PROJECT_REPO = getRepo().toLowerCase()
+  GIT_COMMIT_HASH = sh (script: "git log -n 1 --pretty=format:'%H'", returnStdout: true)
+  VERSION = versionUtils.simpleVersionRead()
+  IS_RELEASE_BRANCH = isReleaseBranch(branch_name)
+  IS_DEVELOP_BRANCH = isDevelopBranch(branch_name)
+}
+
+stages {
+  stage('init') {
+    steps {
+      container('alpine') {
+        sh '''
+          if [ -x init ]
+          then
+            ./init
+          fi
+        '''
+      }
+    }
+  }
+  
+  stage('Image Build & Push') {
+    steps {
+      container(name: 'kaniko', shell: '/busybox/sh') {
+        script {
+          buildImages(globalJsonSettings)
+        }
+      }
+    }
+  }
+  
+  stage('Prisma Scan Build') {
+    steps {
+      container(name: 'prisma', image: 'prisma/prisma', shell: '/bin/sh') {
+        sh 'prisma scan build'
+      }
+    }
+  }
+}

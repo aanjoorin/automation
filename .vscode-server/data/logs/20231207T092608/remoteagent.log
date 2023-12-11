@@ -1,0 +1,61 @@
+2023-12-07 09:26:08.879 [info] 
+
+
+
+
+2023-12-07 09:26:08.892 [info] Extension host agent started.
+2023-12-07 09:26:09.018 [info] Deleted uninstalled extension from disk dart-code.dart-code /home/aanjoorin/.vscode-server/extensions/dart-code.dart-code-3.72.2
+2023-12-07 09:26:09.019 [info] Deleted uninstalled extension from disk dart-code.flutter /home/aanjoorin/.vscode-server/extensions/dart-code.flutter-3.72.0
+2023-12-07 09:26:09.020 [info] Deleted uninstalled extension from disk hashicorp.terraform /home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.27.2-linux-x64
+2023-12-07 09:26:09.020 [info] Deleted uninstalled extension from disk hashicorp.terraform /home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.28.1-linux-x64
+2023-12-07 09:26:09.021 [info] Deleted uninstalled extension from disk ms-vscode.azure-account /home/aanjoorin/.vscode-server/extensions/ms-vscode.azure-account-0.11.5
+2023-12-07 09:26:09.256 [info] [127.0.0.1][f07cbe13][ManagementConnection] New connection established.
+2023-12-07 09:26:09.286 [info] [127.0.0.1][aa458357][ExtensionHostConnection] New connection established.
+2023-12-07 09:26:09.890 [info] [127.0.0.1][aa458357][ExtensionHostConnection] <304> Launched Extension Host Process.
+2023-12-07 09:26:17.010 [info] Getting Manifest... circlecodesolution.ccs-flutter-color
+2023-12-07 09:26:17.010 [info] Getting Manifest... dart-code.dart-code
+2023-12-07 09:26:17.010 [info] Getting Manifest... dart-code.flutter
+2023-12-07 09:26:17.010 [info] Getting Manifest... hashicorp.terraform
+2023-12-07 09:26:17.828 [info] Installing extension: circlecodesolution.ccs-flutter-color
+2023-12-07 09:26:17.894 [info] Installing extension: dart-code.flutter
+2023-12-07 09:26:18.113 [info] Installing extension: hashicorp.terraform
+2023-12-07 09:26:18.254 [info] Installing extension: dart-code.dart-code
+2023-12-07 09:26:22.064 [info] Getting Manifest... dart-code.dart-code
+2023-12-07 09:26:23.070 [warning] Extension signature verification failed with error 'ENOENT': circlecodesolution.ccs-flutter-color
+2023-12-07 09:26:23.182 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/circlecodesolution.ccs-flutter-color-1.2.1: circlecodesolution.ccs-flutter-color
+2023-12-07 09:26:23.188 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/circlecodesolution.ccs-flutter-color-1.2.1
+2023-12-07 09:26:23.190 [info] Extracting extension completed. circlecodesolution.ccs-flutter-color
+2023-12-07 09:26:23.195 [info] Extension installed successfully: circlecodesolution.ccs-flutter-color
+2023-12-07 09:26:23.197 [info] Marked extension as uninstalled circlecodesolution.ccs-flutter-color-1.2.0
+2023-12-07 09:26:26.236 [info] Waiting for already requested installing extension dart-code.dart-code dart-code.flutter
+2023-12-07 09:26:31.937 [warning] Extension signature verification failed with error 'ENOENT': hashicorp.terraform
+2023-12-07 09:26:32.309 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.29.0-linux-x64: hashicorp.terraform
+2023-12-07 09:26:32.314 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.29.0-linux-x64
+2023-12-07 09:26:32.315 [info] Extracting extension completed. hashicorp.terraform
+2023-12-07 09:26:32.320 [info] Extension installed successfully: hashicorp.terraform
+2023-12-07 09:26:32.323 [info] Marked extension as uninstalled hashicorp.terraform-2.28.2-linux-x64
+2023-12-07 09:26:33.512 [warning] Extension signature verification failed with error 'ENOENT': dart-code.flutter
+2023-12-07 09:26:33.521 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/dart-code.flutter-3.78.0: dart-code.flutter
+2023-12-07 09:26:33.525 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/dart-code.flutter-3.78.0
+2023-12-07 09:26:33.526 [info] Extracting extension completed. dart-code.flutter
+2023-12-07 09:26:33.531 [info] Marked extension as uninstalled dart-code.flutter-3.74.0
+2023-12-07 09:26:34.633 [warning] Extension signature verification failed with error 'ENOENT': dart-code.dart-code
+2023-12-07 09:26:44.130 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/dart-code.dart-code-3.78.0: dart-code.dart-code
+2023-12-07 09:26:44.148 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/dart-code.dart-code-3.78.0
+2023-12-07 09:26:44.150 [info] Extracting extension completed. dart-code.dart-code
+2023-12-07 09:26:44.155 [info] Extension installed successfully: dart-code.dart-code
+2023-12-07 09:26:44.157 [info] Finished waiting for already requested installing extension dart-code.dart-code dart-code.flutter
+2023-12-07 09:26:44.157 [info] Extension installed successfully: dart-code.flutter
+2023-12-07 09:26:44.161 [info] Marked extension as uninstalled dart-code.dart-code-3.74.0
+2023-12-07 09:27:14.517 [info] [127.0.0.1][f07cbe13][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-07 09:27:14.715 [info] [127.0.0.1][aa458357][ExtensionHostConnection] <304> Extension Host Process exited with code: 0, signal: null.
+2023-12-07 09:27:15.908 [info] [127.0.0.1][4b58ae90][ManagementConnection] New connection established.
+2023-12-07 09:27:16.105 [info] [127.0.0.1][0a11220e][ExtensionHostConnection] New connection established.
+2023-12-07 09:27:16.128 [info] [127.0.0.1][0a11220e][ExtensionHostConnection] <616> Launched Extension Host Process.
+2023-12-07 09:27:33.917 [info] [127.0.0.1][4b58ae90][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-07 09:27:33.951 [info] [127.0.0.1][0a11220e][ExtensionHostConnection] <616> Extension Host Process exited with code: 0, signal: null.
+2023-12-07 09:27:35.236 [info] [127.0.0.1][2a80efc5][ManagementConnection] New connection established.
+2023-12-07 09:27:35.707 [info] [127.0.0.1][31b39ddc][ExtensionHostConnection] New connection established.
+2023-12-07 09:27:35.718 [info] [127.0.0.1][31b39ddc][ExtensionHostConnection] <777> Launched Extension Host Process.
+2023-12-07 09:27:53.362 [info] [127.0.0.1][2a80efc5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-07 09:27:53.414 [info] [127.0.0.1][31b39ddc][ExtensionHostConnection] <777> Extension Host Process exited with code: 0, signal: null.

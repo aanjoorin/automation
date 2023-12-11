@@ -1,0 +1,33 @@
+2023-12-10 16:55:26.797 [info] Log level: Info
+2023-12-10 16:55:26.797 [info] Validating found git in: "git"
+2023-12-10 16:55:26.797 [info] Using git "2.25.1" from "git"
+2023-12-10 16:55:26.797 [info] > git rev-parse --show-toplevel [7ms]
+2023-12-10 16:55:26.797 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 16:55:26.797 [info] > git rev-parse --show-toplevel [92ms]
+2023-12-10 16:55:26.797 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 16:55:26.834 [info] > git rev-parse --show-toplevel [156ms]
+2023-12-10 16:55:26.834 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 16:55:27.024 [info] > git rev-parse --show-toplevel [176ms]
+2023-12-10 16:55:27.024 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 16:55:27.042 [info] > git rev-parse --show-toplevel [11ms]
+2023-12-10 16:55:27.042 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 16:55:27.056 [info] > git rev-parse --show-toplevel [8ms]
+2023-12-10 16:55:27.056 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 16:55:27.062 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-10 16:55:27.062 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 16:55:27.067 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-10 16:55:27.067 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 16:55:27.073 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-10 16:55:27.073 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 16:55:27.078 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-10 16:55:27.078 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 16:55:27.085 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-10 16:55:27.092 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-12-10 16:55:27.116 [info] Open repository: /home/aanjoorin/git
+2023-12-10 16:55:27.147 [info] > git config --get commit.template [12ms]
+2023-12-10 16:55:27.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2023-12-10 16:55:28.623 [info] > git status -z -uall [1463ms]
+2023-12-10 16:55:28.653 [info] > git config --get commit.template [6ms]
+2023-12-10 16:55:28.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-10 16:55:29.002 [info] > git status -z -uall [341ms]
+2023-12-10 16:55:29.513 [info] > git rev-parse --show-toplevel [1ms]

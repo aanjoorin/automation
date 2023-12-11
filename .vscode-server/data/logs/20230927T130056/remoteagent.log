@@ -1,0 +1,31 @@
+2023-09-27 13:00:56.144 [info] 
+
+
+
+
+2023-09-27 13:00:56.159 [info] Extension host agent started.
+2023-09-27 13:00:56.267 [info] [127.0.0.1][d2dac4cd][ManagementConnection] New connection established.
+2023-09-27 13:00:56.270 [info] Deleted uninstalled extension from disk circlecodesolution.ccs-flutter-color /home/aanjoorin/.vscode-server/extensions/circlecodesolution.ccs-flutter-color-1.1.1
+2023-09-27 13:00:56.271 [info] Deleted uninstalled extension from disk dart-code.dart-code /home/aanjoorin/.vscode-server/extensions/dart-code.dart-code-3.70.0
+2023-09-27 13:00:56.271 [info] Deleted uninstalled extension from disk dart-code.flutter /home/aanjoorin/.vscode-server/extensions/dart-code.flutter-3.70.0
+2023-09-27 13:00:56.271 [info] Deleted uninstalled extension from disk hashicorp.terraform /home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.27.1-linux-x64
+2023-09-27 13:00:56.779 [info] [127.0.0.1][2fb6c828][ExtensionHostConnection] New connection established.
+2023-09-27 13:00:56.897 [info] [127.0.0.1][2fb6c828][ExtensionHostConnection] <8806> Launched Extension Host Process.
+2023-09-28 13:31:21.502 [info] [127.0.0.1][d2dac4cd][ManagementConnection] The client has reconnected.
+2023-09-28 13:31:21.752 [info] [127.0.0.1][2fb6c828][ExtensionHostConnection] The client has reconnected.
+2023-09-28 13:37:29.505 [info] [127.0.0.1][2fb6c828][ExtensionHostConnection] The client has reconnected.
+2023-09-28 13:37:29.582 [info] [127.0.0.1][d2dac4cd][ManagementConnection] The client has reconnected.
+2023-09-29 10:24:56.386 [info] [127.0.0.1][d2dac4cd][ManagementConnection] The client has reconnected.
+2023-09-29 10:24:56.544 [info] [127.0.0.1][2fb6c828][ExtensionHostConnection] The client has reconnected.
+2023-10-02 12:08:25.077 [info] [127.0.0.1][d2dac4cd][ManagementConnection] The client has reconnected.
+2023-10-02 12:08:25.315 [info] [127.0.0.1][2fb6c828][ExtensionHostConnection] The client has reconnected.
+2023-10-02 20:00:32.172 [info] [127.0.0.1][d2dac4cd][ManagementConnection] The client has reconnected.
+2023-10-02 20:00:32.302 [info] [127.0.0.1][2fb6c828][ExtensionHostConnection] The client has reconnected.
+2023-10-02 20:01:32.173 [info] [127.0.0.1][2fb6c828][ExtensionHostConnection] The client has reconnected.
+2023-10-02 20:01:32.257 [info] [127.0.0.1][d2dac4cd][ManagementConnection] The client has reconnected.
+2023-10-02 20:02:29.040 [info] [127.0.0.1][d2dac4cd][ManagementConnection] The client has reconnected.
+2023-10-02 20:02:29.108 [info] [127.0.0.1][2fb6c828][ExtensionHostConnection] The client has reconnected.
+2023-10-02 20:03:26.267 [info] [127.0.0.1][2fb6c828][ExtensionHostConnection] The client has reconnected.
+2023-10-02 20:03:26.339 [info] [127.0.0.1][d2dac4cd][ManagementConnection] The client has reconnected.
+2023-10-02 20:03:57.748 [info] [127.0.0.1][d2dac4cd][ManagementConnection] The client has reconnected.
+2023-10-02 20:09:02.963 [info] [127.0.0.1][2fb6c828][ExtensionHostConnection] <8806> Extension Host Process exited with code: 0, signal: null.

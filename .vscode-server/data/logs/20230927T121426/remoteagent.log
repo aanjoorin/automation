@@ -1,0 +1,103 @@
+2023-09-27 12:14:26.799 [info] 
+
+
+
+
+2023-09-27 12:14:26.813 [info] Extension host agent started.
+2023-09-27 12:14:26.870 [info] Deleted uninstalled extension from disk circlecodesolution.ccs-flutter-color /home/aanjoorin/.vscode-server/extensions/circlecodesolution.ccs-flutter-color-1.0.2
+2023-09-27 12:14:27.367 [info] [127.0.0.1][aa623721][ManagementConnection] New connection established.
+2023-09-27 12:14:27.718 [info] [127.0.0.1][cf743686][ExtensionHostConnection] New connection established.
+2023-09-27 12:14:29.115 [info] [127.0.0.1][cf743686][ExtensionHostConnection] <300> Launched Extension Host Process.
+2023-09-27 12:14:33.027 [info] Getting Manifest... circlecodesolution.ccs-flutter-color
+2023-09-27 12:14:33.028 [info] Getting Manifest... dart-code.dart-code
+2023-09-27 12:14:33.028 [info] Getting Manifest... dart-code.flutter
+2023-09-27 12:14:33.028 [info] Getting Manifest... hashicorp.terraform
+2023-09-27 12:14:33.188 [info] Installing extension: dart-code.flutter
+2023-09-27 12:14:33.197 [info] Installing extension: circlecodesolution.ccs-flutter-color
+2023-09-27 12:14:33.223 [info] Installing extension: dart-code.dart-code
+2023-09-27 12:14:33.237 [info] Installing extension: hashicorp.terraform
+2023-09-27 12:14:33.878 [info] Getting Manifest... dart-code.dart-code
+2023-09-27 12:14:34.174 [info] Waiting for already requested installing extension dart-code.dart-code dart-code.flutter
+2023-09-27 12:14:34.520 [warning] Extension signature verification failed with error 'ENOENT': circlecodesolution.ccs-flutter-color
+2023-09-27 12:14:34.703 [warning] Extension signature verification failed with error 'ENOENT': hashicorp.terraform
+2023-09-27 12:14:34.907 [warning] Extension signature verification failed with error 'ENOENT': dart-code.dart-code
+2023-09-27 12:14:34.929 [warning] Extension signature verification failed with error 'ENOENT': dart-code.flutter
+2023-09-27 12:14:34.982 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/dart-code.flutter-3.72.0: dart-code.flutter
+2023-09-27 12:14:34.995 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/dart-code.flutter-3.72.0
+2023-09-27 12:14:35.003 [info] Extracting extension completed. dart-code.flutter
+2023-09-27 12:14:35.030 [info] Marked extension as uninstalled dart-code.flutter-3.70.0
+2023-09-27 12:14:35.345 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/circlecodesolution.ccs-flutter-color-1.2.0: circlecodesolution.ccs-flutter-color
+2023-09-27 12:14:35.352 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/circlecodesolution.ccs-flutter-color-1.2.0
+2023-09-27 12:14:35.357 [info] Extracting extension completed. circlecodesolution.ccs-flutter-color
+2023-09-27 12:14:35.367 [info] Extension installed successfully: circlecodesolution.ccs-flutter-color
+2023-09-27 12:14:35.376 [info] Marked extension as uninstalled circlecodesolution.ccs-flutter-color-1.1.1
+2023-09-27 12:14:35.914 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.27.2-linux-x64: hashicorp.terraform
+2023-09-27 12:14:35.924 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/hashicorp.terraform-2.27.2-linux-x64
+2023-09-27 12:14:35.927 [info] Extracting extension completed. hashicorp.terraform
+2023-09-27 12:14:35.934 [info] Extension installed successfully: hashicorp.terraform
+2023-09-27 12:14:35.941 [info] Marked extension as uninstalled hashicorp.terraform-2.27.1-linux-x64
+2023-09-27 12:14:43.554 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/dart-code.dart-code-3.72.2: dart-code.dart-code
+2023-09-27 12:14:43.563 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/dart-code.dart-code-3.72.2
+2023-09-27 12:14:43.566 [info] Extracting extension completed. dart-code.dart-code
+2023-09-27 12:14:43.579 [info] Extension installed successfully: dart-code.dart-code
+2023-09-27 12:14:43.582 [info] Finished waiting for already requested installing extension dart-code.dart-code dart-code.flutter
+2023-09-27 12:14:43.582 [info] Extension installed successfully: dart-code.flutter
+2023-09-27 12:14:43.586 [info] Marked extension as uninstalled dart-code.dart-code-3.70.0
+2023-09-27 13:00:45.681 [info] [127.0.0.1][aa623721][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-27 13:00:45.684 [error] Error: Throttler is disposed
+    at r.queue (/home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-27 13:00:45.685 [error] Error: Throttler is disposed
+    at r.queue (/home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-27 13:00:45.686 [error] Error: Throttler is disposed
+    at r.queue (/home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-27 13:00:45.686 [error] Error: Throttler is disposed
+    at r.queue (/home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-27 13:00:45.686 [error] Error: Throttler is disposed
+    at r.queue (/home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-27 13:00:45.686 [error] Error: Throttler is disposed
+    at r.queue (/home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-27 13:00:45.686 [error] Error: Throttler is disposed
+    at r.queue (/home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-27 13:00:45.686 [error] Error: Throttler is disposed
+    at r.queue (/home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:13612)
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:15183
+    at /home/aanjoorin/.vscode-server/bin/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-27 13:00:45.746 [info] [127.0.0.1][cf743686][ExtensionHostConnection] <300> Extension Host Process exited with code: 0, signal: null.

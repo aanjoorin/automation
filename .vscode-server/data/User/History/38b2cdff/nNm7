@@ -1,0 +1,27 @@
+•	Designed, implemented and maintained highly available and scalable infrastructure in GCP and Azure, utilizing services like VMs, VPCs, Storage Accounts, and Kubernetes.
+•	Managed CI/CD pipelines with Jenkins and GitLab CI/CD, including creating build and deployment jobs for multiple environments.
+•	Implemented infrastructure as code using Terraform and Ansible, resulting in significant time savings and reduced human errors.
+•	Built and managed containerized applications in Kubernetes and Docker, improving the scalability and portability of the software products.
+•	Worked closely with the development team to improve the development process, including implementing continuous testing and automated code quality checks.
+•	Mentored junior DevOps engineers and collaborated closely with cross-functional teams to ensure successful delivery of software products.
+•	Managed and maintained infrastructure in GCP and Azure, including VMs, virtual networks, and storage accounts.
+•	Implemented automation with Bash scripting, resulting in improved efficiency and reduced downtime.
+•	Worked closely with the development team to improve the CI/CD pipeline, resulting in faster and more reliable deployments.
+•	Implemented monitoring and alerting with Azure Monitor and Application Insights, GCP Cloud monitoring, resulting in improved visibility and faster incident response.
+•	Assisted in implementing CI/CD pipelines with Jenkins and Azure DevOps, including creating build and deployment jobs for multiple environments.
+•	Detailed technical knowledge and hands-on experience in DevOps, Automation, Build Engineering, and Configuration Management.
+•	Ability to configure and use Twistlock to scan docker images for vulnerabilities.
+•	Create DevOps process automation and tooling to implement standards and boundaries in a way that empowers our application development teams to help themselves for their infrastructure and deployment needs.
+•	Having a good knowledge in AWS including MFA. IAM, EC2, S3, ELB, VPC, RDS, Auto Scaling, CloudWatch, CloudFormation, AWS Lambda and other resources
+•	Having a good knowledge in GCP including IAM & Admin, Billing, APIs & Services, Compute Engine, Cloud Storage, VPC Network, SQL, Kubernetes Engine, Security, Cloud Run and other resources.
+•	Working experience with Ansible playbooks for virtual and physical instance provisioning,
+configuration management, patching and software deployment.
+•	Plan and coordinate system utilization, perform growth analysis and capacity planning.
+•	Working experience with ArgoCD to manage apps/namespaces in different lifecycle.
+•	Provisioning and spinning up resources on both on-prem and cloud infrastructure with Terraform.
+•	Develop a DevSecOps culture by providing knowledge of solutions and expertise within multiple
+Cloud technologies to the development teams.
+•	Develop test automation frameworks in collaboration with the rest of the team for implementing and developing solutions.
+•	Ability to implement a continuous pipeline with EKS, Docker, Jenkins, Bitbucket and GitHub.
+•	Manage infrastructure with Ansible, Terraform,  kustomize and Helm Chart.
+•	SCM such as GIT, SVN, Mercurial, Perforce provides version control, it allows to track changes to source code and allows collaboration with other developers and it also allow to maintain a history of changes.

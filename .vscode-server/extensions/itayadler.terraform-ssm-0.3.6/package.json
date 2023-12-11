@@ -1,0 +1,66 @@
+{
+	"name": "terraform-ssm",
+	"displayName": "VSCode Terraform AWS SSM",
+	"description": "VSCode extension to easily view/edit AWS SSM keys",
+	"version": "0.3.6",
+	"publisher": "itayadler",
+	"repository": "https://github.com/itayadler/vscode-terraform-aws-ssm",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Other",
+		"Programming Languages"
+	],
+	"activationEvents": [
+		"onLanguage:terraform"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.switchAWSProfile",
+				"title": "vscode-terraform-aws-ssm: Switch AWS Profile"
+			},
+			{
+				"command": "extension.executeTerraformInit",
+				"title": "vscode-terraform-aws-ssm: Execute `terraform init` in the current directory of the TF file you're editing"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "mkdir -p out/vendor/hcl-hil && cp ./src/vendor/hcl-hil/hcl-hil.js ./out/vendor/hcl-hil/hcl-hil.js && tsc -p ./",
+		"watch": "mkdir -p out/vendor/hcl-hil && cp ./src/vendor/hcl-hil/hcl-hil.js ./out/vendor/hcl-hil/hcl-hil.js && tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.21",
+		"tslint": "^5.8.0",
+		"@types/node": "^8.10.25",
+		"@types/mocha": "^2.2.42"
+	},
+	"peerDependencies": {
+		"typescript": "^2.6.1"
+	},
+	"dependencies": {
+		"async-shelljs": "^0.1.2",
+		"aws-sdk": "^2.339.0",
+		"bluebird": "^3.5.2",
+		"ini": "^1.3.5",
+		"shelljs": "^0.8.2",
+		"ts-node": "^7.0.1",
+		"typescript-require": "^0.2.10"
+	},
+	"__metadata": {
+		"id": "e3e7428b-4db6-4ac9-b40b-0238b997a8b2",
+		"publisherId": "1d96d932-a286-4121-b8b2-ed387c3742ef",
+		"publisherDisplayName": "itayadler",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1658879818131
+	}
+}

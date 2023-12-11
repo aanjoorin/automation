@@ -1,0 +1,36 @@
+2023-12-10 20:03:38.975 [info] Log level: Info
+2023-12-10 20:03:38.975 [info] Validating found git in: "git"
+2023-12-10 20:03:38.975 [info] Using git "2.25.1" from "git"
+2023-12-10 20:03:38.975 [info] > git rev-parse --show-toplevel [50ms]
+2023-12-10 20:03:38.975 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 20:03:38.975 [info] > git rev-parse --show-toplevel [5ms]
+2023-12-10 20:03:38.975 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 20:03:38.975 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-10 20:03:38.975 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 20:03:39.039 [info] > git rev-parse --show-toplevel [59ms]
+2023-12-10 20:03:39.039 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 20:03:39.061 [info] > git rev-parse --show-toplevel [6ms]
+2023-12-10 20:03:39.061 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 20:03:39.066 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-10 20:03:39.066 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 20:03:39.170 [info] > git rev-parse --show-toplevel [99ms]
+2023-12-10 20:03:39.170 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 20:03:39.188 [info] > git rev-parse --show-toplevel [9ms]
+2023-12-10 20:03:39.188 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-10 20:04:15.084 [info] > git init [8ms]
+2023-12-10 20:04:15.723 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-10 20:04:15.727 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-12-10 20:04:15.736 [info] Open repository: /home/aanjoorin
+2023-12-10 20:04:15.743 [info] > git config --get commit.template [1ms]
+2023-12-10 20:04:15.747 [info] No remotes found in the git config file.
+2023-12-10 20:04:15.748 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-10 20:04:15.753 [info] > git fetch [17ms]
+2023-12-10 20:04:15.762 [info] > git status -z -uall [11ms] (cancelled)
+2023-12-10 20:04:15.764 [info] > git config --get commit.template [1ms]
+2023-12-10 20:04:15.764 [info] > git config --get commit.template [5ms]
+2023-12-10 20:04:15.767 [info] No remotes found in the git config file.
+2023-12-10 20:04:15.770 [info] No remotes found in the git config file.
+2023-12-10 20:04:15.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-10 20:04:15.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-12-10 20:04:15.816 [info] > git status -z -uall [43ms] (cancelled)
+2023-12-10 20:04:23.107 [info] > git check-ignore -v -z --stdin [1ms]

@@ -1,0 +1,11 @@
+2023-12-07 09:28:10.672 [info] Extension host with pid 1140 started
+2023-12-07 09:28:10.696 [info] Lock '/home/aanjoorin/.vscode-server/data/User/workspaceStorage/a5d7b39197d62e4d960ca9bf6bb0643e/vscode.lock': Lock acquired.
+2023-12-07 09:28:10.785 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-07 09:28:10.870 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-07 09:28:11.026 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-07 09:28:11.027 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-07 09:28:12.429 [info] ExtensionService#_doActivateExtension betajob.modulestf, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tf.json,**/*.tfvars,**/*.tfvars.json,**/*.tfstate,**/*.tfstate.backup,**/*.hcl'
+2023-12-07 09:28:12.606 [info] Eager extensions activated
+2023-12-07 09:28:12.609 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-07 09:28:12.610 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-07 09:28:12.611 [info] ExtensionService#_doActivateExtension circlecodesolution.ccs-flutter-color, startup: false, activationEvent: 'onStartupFinished'

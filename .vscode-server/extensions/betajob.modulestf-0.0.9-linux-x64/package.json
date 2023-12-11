@@ -1,0 +1,984 @@
+{
+	"name": "modulestf",
+	"publisher": "betajob",
+	"displayName": "Terraform",
+	"description": "Semantic highlighting support for Terraform, and more to come...",
+	"version": "0.0.9",
+	"private": true,
+	"license": "PROPRIETARY",
+	"preview": true,
+	"author": {
+		"name": "Betajob",
+		"url": "https://www.betajob.com"
+	},
+	"engines": {
+		"vscode": "^1.61.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/modulestf/public"
+	},
+	"bugs": {
+		"url": "https://github.com/modulestf/public/issues"
+	},
+	"icon": "icon2.png",
+	"galleryBanner": {
+		"color": "#5C53E0",
+		"theme": "dark"
+	},
+	"categories": [
+		"Programming Languages",
+		"Linters",
+		"Formatters",
+		"Snippets",
+		"Visualization"
+	],
+	"keywords": [
+		"terraform",
+		"tf",
+		"tfvars",
+		"tfstate",
+		"terraform module",
+		"hashicorp",
+		"hcl",
+		"terragrunt"
+	],
+	"main": "./out/extension",
+	"activationEvents": [
+		"onLanguage:terraform",
+		"onLanguage:tfvars",
+		"onLanguage:terragrunt",
+		"workspaceContains:**/*.tf",
+		"workspaceContains:**/*.tf.json",
+		"workspaceContains:**/*.tfvars",
+		"workspaceContains:**/*.tfvars.json",
+		"workspaceContains:**/*.tfstate",
+		"workspaceContains:**/*.tfstate.backup",
+		"workspaceContains:**/*.hcl"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Modulestf + Dark+",
+				"id": "modulestf-dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/modulestf-dark-color-theme.json"
+			},
+			{
+				"label": "Modulestf + Light+",
+				"id": "modulestf-light",
+				"uiTheme": "vs",
+				"path": "./themes/modulestf-light-color-theme.json"
+			},
+			{
+				"label": "Modulestf + Dark High Contrast",
+				"id": "modulestf-hc",
+				"uiTheme": "hc-black",
+				"path": "./themes/modulestf-hc-color-theme.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "terraform",
+				"scopeName": "scope.terraform",
+				"path": "./syntaxes/terraform.tmGrammar.json"
+			},
+			{
+				"language": "tfvars",
+				"scopeName": "scope.terraform",
+				"path": "./syntaxes/terraform.tmGrammar.json"
+			},
+			{
+				"language": "terragrunt",
+				"scopeName": "scope.terraform",
+				"path": "./syntaxes/terraform.tmGrammar.json"
+			}
+		],
+		"languages": [
+			{
+				"id": "terraform",
+				"aliases": [
+					"Terraform",
+					"terraform"
+				],
+				"extensions": [
+					".tf"
+				],
+				"filenames": [
+					".terraform.lock.hcl"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "tfvars",
+				"aliases": [
+					"Terraform Variables"
+				],
+				"extensions": [
+					".tfvars"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "json",
+				"extensions": [
+					".tf.json",
+					".tfstate",
+					".tfstate.backup"
+				]
+			},
+			{
+				"id": "terragrunt",
+				"aliases": [
+					"Terragrunt",
+					"terragrunt"
+				],
+				"extensions": [
+					".hcl"
+				],
+				"filenames": [
+					"terragrunt.hcl"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"semanticTokenTypes": [
+			{
+				"id": "block-id",
+				"description": "Style for the second tag of a block (e.g. `this` in `resource \"aws_vpc\" \"this\" {}`)"
+			},
+			{
+				"id": "block-name",
+				"description": "Style for the first tag of a block (e.g. `aws_vpc` in `resource \"aws_vpc\" \"this\" {}`)"
+			},
+			{
+				"id": "block-tag",
+				"description": "Style for the third and other block tags"
+			},
+			{
+				"id": "block-type",
+				"description": "Style for the block's type (e.g. `resource` in `resource \"aws_vpc\" \"this\" {}`)"
+			},
+			{
+				"id": "comment",
+				"description": "Style for comment lines and comment blocks"
+			},
+			{
+				"id": "function",
+				"description": "Style for function identifiers"
+			},
+			{
+				"id": "keyword",
+				"description": "Style for keywords (`if`, `else`, `endif`, `for`, `in`, `endfor`)"
+			},
+			{
+				"id": "operator-arithmetic",
+				"description": "Style for `arithmetic` operators (`+`, `-`, `/`, `*`, `%`)"
+			},
+			{
+				"id": "operator-assign",
+				"description": "Style for `assignment` operator (`=`)"
+			},
+			{
+				"id": "operator-comma",
+				"description": "Style for `commas` (e.g. list elements)"
+			},
+			{
+				"id": "operator-compare",
+				"description": "Style for `compare` operators (`>`, `<`, `>=`, `<=`, `==`, `!=`)"
+			},
+			{
+				"id": "operator-for-arrow",
+				"description": "Style for `arrow` operator in `for expressions` (`=>`)"
+			},
+			{
+				"id": "operator-logical",
+				"description": "Style for `logical` operators (`||`, `&&`, `!`)"
+			},
+			{
+				"id": "operator-reference",
+				"description": "Style for `dots` in references"
+			},
+			{
+				"id": "operator-spread",
+				"description": "Style for `spread` operator (`...`)"
+			},
+			{
+				"id": "operator-ternary",
+				"description": "Style for `ternary` operators (... `?` ... `:` ...)"
+			},
+			{
+				"id": "operator-unary-negation",
+				"description": "Style for `unary negation` operator (`-`)"
+			},
+			{
+				"id": "operator-unary-not",
+				"description": "Style for `unary not` operator (`!`)"
+			},
+			{
+				"id": "property",
+				"description": "Style for `property type` in variables (e.g. `var` in `var.name`)"
+			},
+			{
+				"id": "property-reference",
+				"description": "Style for `property reference` in variables (e.g. `name` in `var.name`)"
+			},
+			{
+				"id": "punctuation-block",
+				"description": "Style for `block` symbols (`{`, `}`)"
+			},
+			{
+				"id": "punctuation-bracket",
+				"description": "Style for `bracket` symbols (`(`, `)`)"
+			},
+			{
+				"id": "punctuation-bracket-function",
+				"description": "Style for `bracket` in `function arguments` (`(`, `)`)"
+			},
+			{
+				"id": "punctuation-comma",
+				"description": "Style for `comma` symbol between arguments"
+			},
+			{
+				"id": "punctuation-directive",
+				"description": "Style for `template directive` symbols (`%{`, `}`)"
+			},
+			{
+				"id": "punctuation-for-colon",
+				"description": "Style for `colon` symbol in `for expressions`"
+			},
+			{
+				"id": "punctuation-for-comma",
+				"description": "Style for `comma` symbol in `for expressions`"
+			},
+			{
+				"id": "punctuation-for-object",
+				"description": "Style for `object` symbols in `for expressions` (`{`, `}`)"
+			},
+			{
+				"id": "punctuation-for-tuple",
+				"description": "Style for `tuple` symbols in `for expressions` (`[`, `]`)"
+			},
+			{
+				"id": "punctuation-heredoc-align",
+				"description": "Style for `align` symbols in `heredoc` (`-`)"
+			},
+			{
+				"id": "punctuation-heredoc-arrow",
+				"description": "Style for `arrow` symbols in `heredoc` (`<<`)"
+			},
+			{
+				"id": "punctuation-heredoc-marker",
+				"description": "Style for `marker` symbols in `heredoc` (e.g. `EOF`)"
+			},
+			{
+				"id": "punctuation-interpolation",
+				"description": "Style for `template interpolation` symbols (`${`, `}`)"
+			},
+			{
+				"id": "punctuation-interpolation-strip",
+				"description": "Style for `strip` symbol in interpolations (`~`)"
+			},
+			{
+				"id": "punctuation-object",
+				"description": "Style for `object` symbols (`{`, `}`)"
+			},
+			{
+				"id": "punctuation-tuple",
+				"description": "Style for `tuple` symbols (`[`, `]`)"
+			},
+			{
+				"id": "punctuation-tuple-index",
+				"description": "Style for `index brackets` in `tuple` (`[`, `]`)"
+			},
+			{
+				"id": "punctuation-tuple-splat",
+				"description": "Style for `splat brackets` in `tuple` (`[`, `]`)"
+			},
+			{
+				"id": "splat-attr",
+				"description": "Style for `splat` symbol in attributes (`*`)"
+			},
+			{
+				"id": "splat-full",
+				"description": "Style for `full splat` symbol (`*`)"
+			},
+			{
+				"id": "string-heredoc",
+				"description": "Style for a `heredoc body`"
+			},
+			{
+				"id": "string-quote",
+				"description": "Style for a quoted string body"
+			},
+			{
+				"id": "string-quote-marker",
+				"description": "Style for a quoted string double quote markers"
+			},
+			{
+				"id": "string-template",
+				"description": "Style for a string between template directives"
+			},
+			{
+				"id": "value-boolean-false",
+				"description": "Style for `boolean` values (`false`)"
+			},
+			{
+				"id": "value-boolean-true",
+				"description": "Style for `boolean` values (`true`)"
+			},
+			{
+				"id": "value-null",
+				"description": "Style for `null` values"
+			},
+			{
+				"id": "value-number",
+				"description": "Style for `numerical` values"
+			},
+			{
+				"id": "variable",
+				"description": "Style for variable identifiers"
+			},
+			{
+				"id": "variable-for",
+				"description": "Style for `variable` in `for expressions`"
+			}
+		],
+		"semanticTokenModifiers": [
+			{
+				"id": "oneline",
+				"description": "Differentiates oneline blocks (e.g. `locals { ... }` written in one line)"
+			}
+		],
+		"semanticTokenScopes": [
+			{
+				"language": "terragrunt",
+				"scopes": {
+					"block-id": [
+						"modulestf.block.id.terragrunt",
+						"modulestf.block.tag.terragrunt",
+						"variable.other.enummember.terragrunt",
+						"entity.name.type.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"block-name": [
+						"modulestf.block.name.terragrunt",
+						"modulestf.block.tag.terragrunt",
+						"variable.other.enummember.terragrunt",
+						"entity.name.type.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"block-tag": [
+						"modulestf.block.tag.terragrunt",
+						"variable.other.enummember.terragrunt",
+						"entity.name.type.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"block-type": [
+						"modulestf.block.type.terragrunt",
+						"entity.name.type.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"comment": [
+						"modulestf.comment.terragrunt",
+						"punctuation.definition.comment.terragrunt",
+						"comment.line.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"function": [
+						"modulestf.function.terragrunt",
+						"entity.name.function.terragrunt",
+						"support.function.builtin.terragrunt",
+						"meta.function-call.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"keyword": [
+						"modulestf.keyword.terragrunt",
+						"keyword.control.terragrunt",
+						"meta.interpolation.terragrunt",
+						"string.quoted.double.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"operator-arithmetic": [
+						"modulestf.operator.arithmetic.terragrunt"
+					],
+					"operator-assign": [
+						"modulestf.operator.assign.terragrunt"
+					],
+					"operator-comma": [
+						"modulestf.operator.comma.terragrunt"
+					],
+					"operator-compare": [
+						"modulestf.operator.compare.terragrunt"
+					],
+					"operator-for-arrow": [
+						"modulestf.operator.for.arrow.terragrunt"
+					],
+					"operator-logical": [
+						"modulestf.operator.logical.terragrunt"
+					],
+					"operator-reference": [
+						"modulestf.operator.reference.terragrunt"
+					],
+					"operator-spread": [
+						"modulestf.operator.spread.terragrunt"
+					],
+					"operator-ternary": [
+						"modulestf.operator.ternary.terragrunt"
+					],
+					"operator-unary-negation": [
+						"modulestf.operator.unary.negation.terragrunt"
+					],
+					"operator-unary-not": [
+						"modulestf.operator.unary.not.terragrunt"
+					],
+					"property": [
+						"modulestf.property.terragrunt"
+					],
+					"property-reference": [
+						"modulestf.property.reference.terragrunt"
+					],
+					"punctuation-block": [
+						"modulestf.punctuation.block.terragrunt"
+					],
+					"punctuation-bracket": [
+						"modulestf.punctuation.bracket.terragrunt"
+					],
+					"punctuation-bracket-function": [
+						"modulestf.punctuation.bracket.function.terragrunt"
+					],
+					"punctuation-comma": [
+						"modulestf.punctuation.comma.terragrunt"
+					],
+					"punctuation-directive": [
+						"modulestf.punctuation.directive.terragrunt"
+					],
+					"punctuation-for-colon": [
+						"modulestf.punctuation.for.colon.terragrunt"
+					],
+					"punctuation-for-comma": [
+						"modulestf.punctuation.for.comma.terragrunt"
+					],
+					"punctuation-for-object": [
+						"modulestf.punctuation.for.object.terragrunt"
+					],
+					"punctuation-for-tuple": [
+						"modulestf.punctuation.for.tuple.terragrunt"
+					],
+					"punctuation-heredoc-align": [
+						"modulestf.punctuation.heredoc.align.terragrunt"
+					],
+					"punctuation-heredoc-arrow": [
+						"modulestf.punctuation.heredoc.arrow.terragrunt"
+					],
+					"punctuation-heredoc-marker": [
+						"modulestf.punctuation.heredoc.marker.terragrunt"
+					],
+					"punctuation-interpolation": [
+						"modulestf.punctuation.interpolation.terragrunt"
+					],
+					"punctuation-interpolation-strip": [
+						"modulestf.punctuation.interpolation.strip.terragrunt"
+					],
+					"punctuation-object": [
+						"modulestf.punctuation.object.terragrunt"
+					],
+					"punctuation-tuple": [
+						"modulestf.punctuation.tuple.terragrunt"
+					],
+					"punctuation-tuple-index": [
+						"modulestf.punctuation.tuple.index.terragrunt"
+					],
+					"punctuation-tuple-splat": [
+						"modulestf.punctuation.tuple.splat.terragrunt"
+					],
+					"splat-attr": [
+						"modulestf.splat.attr.terragrunt"
+					],
+					"splat-full": [
+						"modulestf.splat.full.terragrunt"
+					],
+					"string-heredoc": [
+						"modulestf.string.heredoc.terragrunt",
+						"string.unquoted.heredoc.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"string-quote": [
+						"modulestf.string.quote.terragrunt",
+						"string.quoted.double.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"string-quote-marker": [
+						"modulestf.string.quote.marker.terragrunt",
+						"punctuation.definition.string.begin.terragrunt",
+						"string.quoted.double.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"string-template": [
+						"modulestf.string.template.terragrunt",
+						"string.unquoted.heredoc.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"value-boolean-false": [
+						"modulestf.value.boolean.false.terragrunt"
+					],
+					"value-boolean-true": [
+						"modulestf.value.boolean.true.terragrunt"
+					],
+					"value-null": [
+						"modulestf.value.null.terragrunt"
+					],
+					"value-number": [
+						"modulestf.value.number.terragrunt",
+						"constant.numeric.integer.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"variable": [
+						"modulestf.variable.terragrunt",
+						"variable.other.readwrite.terragrunt",
+						"variable.declaration.terragrunt",
+						"meta.block.terragrunt",
+						"scope.terragrunt"
+					],
+					"variable-for": [
+						"modulestf.variable.for.terragrunt"
+					]
+				}
+			},
+			{
+				"language": "terraform",
+				"scopes": {
+					"block-id": [
+						"modulestf.block.id.terraform",
+						"modulestf.block.tag.terraform",
+						"variable.other.enummember.terraform",
+						"entity.name.type.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"block-name": [
+						"modulestf.block.name.terraform",
+						"modulestf.block.tag.terraform",
+						"variable.other.enummember.terraform",
+						"entity.name.type.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"block-tag": [
+						"modulestf.block.tag.terraform",
+						"variable.other.enummember.terraform",
+						"entity.name.type.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"block-type": [
+						"modulestf.block.type.terraform",
+						"entity.name.type.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"comment": [
+						"modulestf.comment.terraform",
+						"punctuation.definition.comment.terraform",
+						"comment.line.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"function": [
+						"modulestf.function.terraform",
+						"entity.name.function.terraform",
+						"support.function.builtin.terraform",
+						"meta.function-call.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"keyword": [
+						"modulestf.keyword.terraform",
+						"keyword.control.terraform",
+						"meta.interpolation.terraform",
+						"string.quoted.double.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"operator-arithmetic": [
+						"modulestf.operator.arithmetic.terraform"
+					],
+					"operator-assign": [
+						"modulestf.operator.assign.terraform"
+					],
+					"operator-comma": [
+						"modulestf.operator.comma.terraform"
+					],
+					"operator-compare": [
+						"modulestf.operator.compare.terraform"
+					],
+					"operator-for-arrow": [
+						"modulestf.operator.for.arrow.terraform"
+					],
+					"operator-logical": [
+						"modulestf.operator.logical.terraform"
+					],
+					"operator-reference": [
+						"modulestf.operator.reference.terraform"
+					],
+					"operator-spread": [
+						"modulestf.operator.spread.terraform"
+					],
+					"operator-ternary": [
+						"modulestf.operator.ternary.terraform"
+					],
+					"operator-unary-negation": [
+						"modulestf.operator.unary.negation.terraform"
+					],
+					"operator-unary-not": [
+						"modulestf.operator.unary.not.terraform"
+					],
+					"property": [
+						"modulestf.property.terraform"
+					],
+					"property-reference": [
+						"modulestf.property.reference.terraform"
+					],
+					"punctuation-block": [
+						"modulestf.punctuation.block.terraform"
+					],
+					"punctuation-bracket": [
+						"modulestf.punctuation.bracket.terraform"
+					],
+					"punctuation-bracket-function": [
+						"modulestf.punctuation.bracket.function.terraform"
+					],
+					"punctuation-comma": [
+						"modulestf.punctuation.comma.terraform"
+					],
+					"punctuation-directive": [
+						"modulestf.punctuation.directive.terraform"
+					],
+					"punctuation-for-colon": [
+						"modulestf.punctuation.for.colon.terraform"
+					],
+					"punctuation-for-comma": [
+						"modulestf.punctuation.for.comma.terraform"
+					],
+					"punctuation-for-object": [
+						"modulestf.punctuation.for.object.terraform"
+					],
+					"punctuation-for-tuple": [
+						"modulestf.punctuation.for.tuple.terraform"
+					],
+					"punctuation-heredoc-align": [
+						"modulestf.punctuation.heredoc.align.terraform"
+					],
+					"punctuation-heredoc-arrow": [
+						"modulestf.punctuation.heredoc.arrow.terraform"
+					],
+					"punctuation-heredoc-marker": [
+						"modulestf.punctuation.heredoc.marker.terraform"
+					],
+					"punctuation-interpolation": [
+						"modulestf.punctuation.interpolation.terraform"
+					],
+					"punctuation-interpolation-strip": [
+						"modulestf.punctuation.interpolation.strip.terraform"
+					],
+					"punctuation-object": [
+						"modulestf.punctuation.object.terraform"
+					],
+					"punctuation-tuple": [
+						"modulestf.punctuation.tuple.terraform"
+					],
+					"punctuation-tuple-index": [
+						"modulestf.punctuation.tuple.index.terraform"
+					],
+					"punctuation-tuple-splat": [
+						"modulestf.punctuation.tuple.splat.terraform"
+					],
+					"splat-attr": [
+						"modulestf.splat.attr.terraform"
+					],
+					"splat-full": [
+						"modulestf.splat.full.terraform"
+					],
+					"string-heredoc": [
+						"modulestf.string.heredoc.terraform",
+						"string.unquoted.heredoc.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"string-quote": [
+						"modulestf.string.quote.terraform",
+						"string.quoted.double.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"string-quote-marker": [
+						"modulestf.string.quote.marker.terraform",
+						"punctuation.definition.string.begin.terraform",
+						"string.quoted.double.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"string-template": [
+						"modulestf.string.template.terraform",
+						"string.unquoted.heredoc.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"value-boolean-false": [
+						"modulestf.value.boolean.false.terraform"
+					],
+					"value-boolean-true": [
+						"modulestf.value.boolean.true.terraform"
+					],
+					"value-null": [
+						"modulestf.value.null.terraform"
+					],
+					"value-number": [
+						"modulestf.value.number.terraform",
+						"constant.numeric.integer.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"variable": [
+						"modulestf.variable.terraform",
+						"variable.other.readwrite.terraform",
+						"variable.declaration.terraform",
+						"meta.block.terraform",
+						"scope.terraform"
+					],
+					"variable-for": [
+						"modulestf.variable.for.terraform"
+					]
+				}
+			},
+			{
+				"language": "tfvars",
+				"scopes": {
+					"block-id": [
+						"modulestf.block.id.tfvars",
+						"modulestf.block.tag.tfvars",
+						"variable.other.enummember.tfvars",
+						"entity.name.type.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"block-name": [
+						"modulestf.block.name.tfvars",
+						"modulestf.block.tag.tfvars",
+						"variable.other.enummember.tfvars",
+						"entity.name.type.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"block-tag": [
+						"modulestf.block.tag.tfvars",
+						"variable.other.enummember.tfvars",
+						"entity.name.type.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"block-type": [
+						"modulestf.block.type.tfvars",
+						"entity.name.type.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"comment": [
+						"modulestf.comment.tfvars",
+						"punctuation.definition.comment.tfvars",
+						"comment.line.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"function": [
+						"modulestf.function.tfvars",
+						"entity.name.function.tfvars",
+						"support.function.builtin.tfvars",
+						"meta.function-call.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"keyword": [
+						"modulestf.keyword.tfvars",
+						"keyword.control.tfvars",
+						"meta.interpolation.tfvars",
+						"string.quoted.double.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"operator-arithmetic": [
+						"modulestf.operator.arithmetic.tfvars"
+					],
+					"operator-assign": [
+						"modulestf.operator.assign.tfvars"
+					],
+					"operator-comma": [
+						"modulestf.operator.comma.tfvars"
+					],
+					"operator-compare": [
+						"modulestf.operator.compare.tfvars"
+					],
+					"operator-for-arrow": [
+						"modulestf.operator.for.arrow.tfvars"
+					],
+					"operator-logical": [
+						"modulestf.operator.logical.tfvars"
+					],
+					"operator-reference": [
+						"modulestf.operator.reference.tfvars"
+					],
+					"operator-spread": [
+						"modulestf.operator.spread.tfvars"
+					],
+					"operator-ternary": [
+						"modulestf.operator.ternary.tfvars"
+					],
+					"operator-unary-negation": [
+						"modulestf.operator.unary.negation.tfvars"
+					],
+					"operator-unary-not": [
+						"modulestf.operator.unary.not.tfvars"
+					],
+					"property": [
+						"modulestf.property.tfvars"
+					],
+					"property-reference": [
+						"modulestf.property.reference.tfvars"
+					],
+					"punctuation-block": [
+						"modulestf.punctuation.block.tfvars"
+					],
+					"punctuation-bracket": [
+						"modulestf.punctuation.bracket.tfvars"
+					],
+					"punctuation-bracket-function": [
+						"modulestf.punctuation.bracket.function.tfvars"
+					],
+					"punctuation-comma": [
+						"modulestf.punctuation.comma.tfvars"
+					],
+					"punctuation-directive": [
+						"modulestf.punctuation.directive.tfvars"
+					],
+					"punctuation-for-colon": [
+						"modulestf.punctuation.for.colon.tfvars"
+					],
+					"punctuation-for-comma": [
+						"modulestf.punctuation.for.comma.tfvars"
+					],
+					"punctuation-for-object": [
+						"modulestf.punctuation.for.object.tfvars"
+					],
+					"punctuation-for-tuple": [
+						"modulestf.punctuation.for.tuple.tfvars"
+					],
+					"punctuation-heredoc-align": [
+						"modulestf.punctuation.heredoc.align.tfvars"
+					],
+					"punctuation-heredoc-arrow": [
+						"modulestf.punctuation.heredoc.arrow.tfvars"
+					],
+					"punctuation-heredoc-marker": [
+						"modulestf.punctuation.heredoc.marker.tfvars"
+					],
+					"punctuation-interpolation": [
+						"modulestf.punctuation.interpolation.tfvars"
+					],
+					"punctuation-interpolation-strip": [
+						"modulestf.punctuation.interpolation.strip.tfvars"
+					],
+					"punctuation-object": [
+						"modulestf.punctuation.object.tfvars"
+					],
+					"punctuation-tuple": [
+						"modulestf.punctuation.tuple.tfvars"
+					],
+					"punctuation-tuple-index": [
+						"modulestf.punctuation.tuple.index.tfvars"
+					],
+					"punctuation-tuple-splat": [
+						"modulestf.punctuation.tuple.splat.tfvars"
+					],
+					"splat-attr": [
+						"modulestf.splat.attr.tfvars"
+					],
+					"splat-full": [
+						"modulestf.splat.full.tfvars"
+					],
+					"string-heredoc": [
+						"modulestf.string.heredoc.tfvars",
+						"string.unquoted.heredoc.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"string-quote": [
+						"modulestf.string.quote.tfvars",
+						"string.quoted.double.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"string-quote-marker": [
+						"modulestf.string.quote.marker.tfvars",
+						"punctuation.definition.string.begin.tfvars",
+						"string.quoted.double.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"string-template": [
+						"modulestf.string.template.tfvars",
+						"string.unquoted.heredoc.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"value-boolean-false": [
+						"modulestf.value.boolean.false.tfvars"
+					],
+					"value-boolean-true": [
+						"modulestf.value.boolean.true.tfvars"
+					],
+					"value-null": [
+						"modulestf.value.null.tfvars"
+					],
+					"value-number": [
+						"modulestf.value.number.tfvars",
+						"constant.numeric.integer.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"variable": [
+						"modulestf.variable.tfvars",
+						"variable.other.readwrite.tfvars",
+						"variable.declaration.tfvars",
+						"meta.block.tfvars",
+						"scope.tfvars"
+					],
+					"variable-for": [
+						"modulestf.variable.for.tfvars"
+					]
+				}
+			}
+		]
+	},
+	"__metadata": {
+		"id": "2d67beaa-22bc-4f5b-a6d1-a73b82d9c52e",
+		"publisherId": "5394f1ab-45a8-4623-8fa0-41496eaca8ea",
+		"publisherDisplayName": "Betajob",
+		"targetPlatform": "linux-x64",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1658879718053
+	}
+}

@@ -1,0 +1,45 @@
+2023-10-12 13:29:37.484 [info] Log level: Info
+2023-10-12 13:29:37.484 [info] Validating found git in: "git"
+2023-10-12 13:29:37.484 [info] Using git "2.25.1" from "git"
+2023-10-12 13:29:37.484 [info] > git rev-parse --show-toplevel [11ms]
+2023-10-12 13:29:37.484 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:37.484 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-12 13:29:37.484 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:37.484 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-12 13:29:37.484 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:37.484 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-12 13:29:37.484 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:37.484 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-12 13:29:37.484 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:37.484 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-12 13:29:37.484 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:37.484 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-12 13:29:37.484 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:37.597 [info] > git rev-parse --show-toplevel [114ms]
+2023-10-12 13:29:37.597 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:37.605 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-12 13:29:37.605 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:37.616 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-12 13:29:37.616 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:37.625 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-12 13:29:37.635 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-10-12 13:29:37.658 [info] Open repository: /home/aanjoorin/git
+2023-10-12 13:29:37.687 [info] > git config --get commit.template [10ms]
+2023-10-12 13:29:37.696 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2023-10-12 13:29:39.027 [info] > git check-ignore -v -z --stdin [3ms]
+2023-10-12 13:29:39.110 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-12 13:29:39.110 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:39.118 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-12 13:29:39.118 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:39.362 [info] > git status -z -uall [1658ms]
+2023-10-12 13:29:39.380 [info] > git config --get commit.template [2ms]
+2023-10-12 13:29:39.386 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-10-12 13:29:39.682 [info] > git status -z -uall [290ms]
+2023-10-12 13:29:39.746 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-12 13:29:39.746 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:39.752 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-12 13:29:39.752 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-12 13:29:40.190 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-12 13:29:42.641 [warning] Failed to get repository realpath for: "/home/aanjoorin/.vscode-server/extensions/.8cb975c8-ce6b-45ea-b807-4b7efe145c15/.husky/_/". Error: ENOENT: no such file or directory, realpath '/home/aanjoorin/.vscode-server/extensions/.8cb975c8-ce6b-45ea-b807-4b7efe145c15/.husky/_/'
+2023-10-12 13:29:42.654 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-12 13:29:42.654 [info] fatal: not a git repository (or any of the parent directories): .git

@@ -1,0 +1,65 @@
+2023-08-30 09:46:36.328 [info] 
+
+
+
+
+2023-08-30 09:46:36.343 [info] Extension host agent started.
+2023-08-30 09:46:36.434 [info] [127.0.0.1][717c0f21][ManagementConnection] New connection established.
+2023-08-30 09:46:37.448 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] New connection established.
+2023-08-30 09:46:38.114 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] <282> Launched Extension Host Process.
+2023-08-30 09:46:43.112 [info] Getting Manifest... circlecodesolution.ccs-flutter-color
+2023-08-30 09:46:43.225 [info] Installing extension: circlecodesolution.ccs-flutter-color
+2023-08-30 09:46:43.800 [warning] Extension signature verification failed with error 'ENOENT': circlecodesolution.ccs-flutter-color
+2023-08-30 09:46:43.830 [info] Extracted extension to file:///home/aanjoorin/.vscode-server/extensions/circlecodesolution.ccs-flutter-color-1.1.1: circlecodesolution.ccs-flutter-color
+2023-08-30 09:46:43.835 [info] Renamed to /home/aanjoorin/.vscode-server/extensions/circlecodesolution.ccs-flutter-color-1.1.1
+2023-08-30 09:46:43.838 [info] Extracting extension completed. circlecodesolution.ccs-flutter-color
+2023-08-30 09:46:43.846 [info] Extension installed successfully: circlecodesolution.ccs-flutter-color
+2023-08-30 09:46:43.849 [info] Marked extension as uninstalled circlecodesolution.ccs-flutter-color-1.0.2
+2023-08-30 18:16:23.474 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-31 12:06:46.796 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-08-31 12:06:46.902 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-08-31 21:58:14.291 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-08-31 21:58:14.395 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-08-31 21:58:36.612 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-08-31 21:58:36.699 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-01 03:00:04.686 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-01 03:00:04.799 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-01 15:45:21.523 [warning] No ptyHost heartbeat after 6 seconds
+2023-09-05 13:11:02.396 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-05 13:11:02.551 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-05 23:00:18.308 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-05 23:00:18.422 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-05 23:00:40.472 [warning] No ptyHost heartbeat after 6 seconds
+2023-09-06 09:29:56.408 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-06 09:29:56.563 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-06 09:42:48.928 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-06 09:42:49.092 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-06 10:16:19.038 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-06 10:16:19.261 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-06 10:31:18.168 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-06 10:31:18.623 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-06 10:41:18.690 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-06 10:41:18.843 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-06 10:51:20.062 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-06 10:51:20.300 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-06 12:07:55.063 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-06 12:07:55.279 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-06 17:39:08.678 [warning] No ptyHost heartbeat after 6 seconds
+2023-09-07 10:24:42.059 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-07 10:24:42.256 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-07 10:42:42.141 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-07 10:42:42.388 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-07 10:57:12.301 [warning] No ptyHost heartbeat after 6 seconds
+2023-09-09 11:14:49.449 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-09 11:14:49.610 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-09 11:20:08.885 [warning] No ptyHost heartbeat after 6 seconds
+2023-09-11 09:15:03.664 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-11 09:15:03.833 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-11 09:18:05.789 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-11 09:18:05.941 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-11 09:24:30.222 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-11 09:24:30.429 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-11 09:36:40.358 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.
+2023-09-11 09:36:40.541 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-11 09:46:40.680 [info] [127.0.0.1][717c0f21][ManagementConnection] The client has reconnected.
+2023-09-11 09:46:40.957 [info] [127.0.0.1][185c3d27][ExtensionHostConnection] The client has reconnected.

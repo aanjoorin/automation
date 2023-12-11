@@ -1,0 +1,56 @@
+{
+    "workbench.startupEditor": "none",
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "json.schemas": [],
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "workbench.editorAssociations": {
+        "*.gz": "default"
+    },
+    "vscodeGitCommit.variables": {
+        "prefix": "keke"
+    },
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.windows": "C:\\Users\\Ademiju Anjoorin\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe"
+    },
+    "yaml.schemas": {
+        "file:///c%3A/Users/Ademiju%20Anjoorin/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.autoIndent": "advanced",
+    "workbench.colorTheme": "Default Dark+ Experimental",
+    "editor.tabSize": 2
+}

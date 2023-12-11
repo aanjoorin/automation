@@ -1,0 +1,16 @@
+2023-08-30 09:46:38.534 [info] Extension host with pid 282 started
+2023-08-30 09:46:38.539 [error] Error: EEXIST: file already exists, open '/home/aanjoorin/.vscode-server/data/User/workspaceStorage/a5d7b39197d62e4d960ca9bf6bb0643e/vscode.lock'
+2023-08-30 09:46:38.546 [info] Lock '/home/aanjoorin/.vscode-server/data/User/workspaceStorage/a5d7b39197d62e4d960ca9bf6bb0643e/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-08-30 09:46:38.548 [info] Lock '/home/aanjoorin/.vscode-server/data/User/workspaceStorage/a5d7b39197d62e4d960ca9bf6bb0643e/vscode.lock': The pid 298 appears to be gone.
+2023-08-30 09:46:38.548 [info] Lock '/home/aanjoorin/.vscode-server/data/User/workspaceStorage/a5d7b39197d62e4d960ca9bf6bb0643e/vscode.lock': Deleting a stale lock.
+2023-08-30 09:46:38.563 [info] Lock '/home/aanjoorin/.vscode-server/data/User/workspaceStorage/a5d7b39197d62e4d960ca9bf6bb0643e/vscode.lock': Lock acquired.
+2023-08-30 09:46:38.601 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-30 09:46:38.661 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-30 09:46:38.672 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-30 09:46:38.672 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-30 09:46:38.875 [info] ExtensionService#_doActivateExtension circlecodesolution.ccs-flutter-color, startup: true, activationEvent: 'workspaceContains:**/*'
+2023-08-30 09:46:38.875 [info] ExtensionService#_doActivateExtension betajob.modulestf, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tf.json,**/*.tfvars,**/*.tfvars.json,**/*.tfstate,**/*.tfstate.backup,**/*.hcl'
+2023-08-30 09:46:38.926 [info] Eager extensions activated
+2023-08-30 09:46:38.926 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-30 09:46:38.927 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-30 09:46:45.486 [error] Error: ENOENT: no such file or directory, realpath '/home/aanjoorin/.vscode-server/extensions/.6848c3fd-e970-4e56-bd2b-7aafb454130a/'

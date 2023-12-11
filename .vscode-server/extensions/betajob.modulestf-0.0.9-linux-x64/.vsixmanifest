@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="modulestf" Version="0.0.9" Publisher="betajob" TargetPlatform="linux-x64"/>
+			<DisplayName>Terraform</DisplayName>
+			<Description xml:space="preserve">Semantic highlighting support for Terraform, and more to come...</Description>
+			<Tags>terraform,tf,tfvars,tfstate,terraform module,hashicorp,hcl,terragrunt,theme,color-theme,Terraform,__ext_tf,Terraform Variables,__ext_tfvars,json,__ext_tfjson,__ext_tfstate,__ext_tfstatebackup,Terragrunt,__ext_hcl</Tags>
+			<Categories>Programming Languages,Linters,Formatters,Snippets,Visualization</Categories>
+			<GalleryFlags>Public Preview</GalleryFlags>
+			
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.61.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/modulestf/public.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/modulestf/public.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/modulestf/public.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/modulestf/public/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/modulestf/public#readme" />
+				<Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#5C53E0" />
+				<Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				
+				
+			</Properties>
+			<License>extension/LICENSE.md</License>
+			<Icon>extension/icon2.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/icon2.png" Addressable="true" />
+		</Assets>
+	</PackageManifest>
