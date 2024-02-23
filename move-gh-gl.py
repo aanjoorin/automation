@@ -13,7 +13,7 @@ github_repo_url = f"https://github.com/{username}/{repository}.git"
 gitlab_api_url = "https://gitlab.com/api/v4/projects"
 
 # GitLab access token
-gitlab_access_token = "glpat-_fSY2pj-ibEyzQ7TaWct"
+gitlab_access_token = "GITLAB_ACCESS_TOKEN"
 
 
 # Directory to clone the GitHub repository

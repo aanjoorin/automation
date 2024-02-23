@@ -31,7 +31,8 @@ with open(".github/workflows/main.yml", "w") as action_file:
     action_file.write(action_content)
 
 # Create a new repository under github.com/aanjoorin
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "GITHUB_TOKEN"
+
 headers = {
     "Authorization": f"token {GITHUB_TOKEN}",
     "Accept": "application/vnd.github.v3+json"
