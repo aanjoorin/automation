@@ -6,7 +6,7 @@ import time
 
 # GitHub repository URL
 username = "aanjoorin"
-repository = "KPIP"
+repository = "BESS"
 github_repo_url = f"https://github.com/{username}/{repository}.git"
 
 # GitLab API endpoint

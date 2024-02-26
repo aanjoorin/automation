@@ -4,10 +4,10 @@ import subprocess
 import requests
 
 # Clone the repository
-subprocess.run(["git", "clone", "https://github.com/CDCgov/KPIP.git"])
+subprocess.run(["git", "clone", "https://github.com/CDCgov/BESS.git"])
 
 # Navigate into the cloned repository
-os.chdir("KPIP")
+os.chdir("BESS")
 
 # Create necessary directories and files
 os.makedirs(".github/workflows/", exist_ok=True)
@@ -38,14 +38,14 @@ headers = {
     "Accept": "application/vnd.github.v3+json"
 }
 data = {
-    "name": "KPIP",
+    "name": "BESS",
     "auto_init": False,  # Initialize with a README file
     "private": False    # Set to True for private repository
 }
 response = requests.post("https://api.github.com/user/repos", headers=headers, json=data)
 
 if response.status_code == 201:
-    print("Repository 'KPIP' created successfully under 'aanjoorin'!")
+    print("Repository 'BESS' created successfully under 'aanjoorin'!")
 else:
     print(f"Failed to create repository. Status code: {response.status_code}")
     print(response.text)
@@ -53,5 +53,5 @@ else:
 # Push the updated repository content to the newly created repository
 subprocess.run(["git", "add", "-A"])
 subprocess.run(["git", "commit", "-m", "Initial commit"])
-subprocess.run(["git", "remote", "add", "gh", f"https://github.com/aanjoorin/KPIP.git"])
+subprocess.run(["git", "remote", "add", "gh", f"https://github.com/aanjoorin/BESS.git"])
 subprocess.run(["git", "push", "-u", "gh", "master"])

@@ -1,6 +1,6 @@
 #!/bin/bash
 username="aanjoorin"
-repository="KPIP"
+repository="BESS"
 github_repo_url="https://github.com/$username/$repository.git"
 gitlab_api_url="https://gitlab.com/api/v4/projects"
 # Directory to clone the GitHub repository
